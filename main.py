@@ -133,3 +133,6 @@ class MyClient(discord.Client):
 
 intents = discord.Intents.default()
 intents.members = True
+
+
+bot.run('DISCORD_BOT_TOKEN')
